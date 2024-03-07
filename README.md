@@ -7,6 +7,9 @@ The pre-trained prosody extractor can be found in `pretrained_models/prosody_ext
 - `model.acc.best` is the pretrained parameters, and the model definition refers `conv_san_model.py`.
 - `model.json` is the configuration of prosody extractor at the training stage, you can find some hyper-parameter in it.
 
+## Speaker embedding extractor
+The pre-trained speaker embedding extractor can be found in `pretrained_models\speaker_embedding_extractor`.
+
 ## PAT loss reweighting
 The core code pieces of PAT loss reweighting are provided in `calc_loss_reweight.py`. 
 You can easily integrate it in your own model or other ESPNet ASR models.
